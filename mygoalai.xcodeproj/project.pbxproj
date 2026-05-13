@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B92E376F2F1E66C000C44C77 /* Sharing in Frameworks */ = {isa = PBXBuildFile; productRef = B92E376E2F1E66C000C44C77 /* Sharing */; };
+		B92E37722F1E7EDB00C44C77 /* SharingCloud in Frameworks */ = {isa = PBXBuildFile; productRef = B92E37712F1E7EDB00C44C77 /* SharingCloud */; };
+		B9346C442EA970D700ABE082 /* SafeSFSymbols in Frameworks */ = {isa = PBXBuildFile; productRef = B9346C432EA970D700ABE082 /* SafeSFSymbols */; };
+		B9346E592EB0C64B00ABE082 /* AppLovinYandexMobileAdsAdapters in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E582EB0C64B00ABE082 /* AppLovinYandexMobileAdsAdapters */; };
+		B9346E5B2EB0C64B00ABE082 /* MintegralYandexMobileAdsAdapters in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E5A2EB0C64B00ABE082 /* MintegralYandexMobileAdsAdapters */; };
+		B9346E5D2EB0C64B00ABE082 /* MyTargetYandexMobileAdsAdapters in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E5C2EB0C64B00ABE082 /* MyTargetYandexMobileAdsAdapters */; };
+		B9346E5F2EB0C64B00ABE082 /* VungleYandexMobileAdsAdapters in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E5E2EB0C64B00ABE082 /* VungleYandexMobileAdsAdapters */; };
+		B9346E612EB0C64B00ABE082 /* YandexMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E602EB0C64B00ABE082 /* YandexMobileAds */; };
+		B9346E632EB0C64B00ABE082 /* YandexMobileAdsInstream in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E622EB0C64B00ABE082 /* YandexMobileAdsInstream */; };
+		B9346E652EB0C64B00ABE082 /* YandexMobileAdsMediation in Frameworks */ = {isa = PBXBuildFile; productRef = B9346E642EB0C64B00ABE082 /* YandexMobileAdsMediation */; };
+		B9346EC82EB20AB300ABE082 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9346EC72EB20AB300ABE082 /* MobileAdsBundle.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9346B2E2EA8240900ABE082 /* mygoalai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mygoalai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9346EC72EB20AB300ABE082 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileAdsBundle.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B9346E672EB0D79600ABE082 /* Exceptions for "mygoalai" folder in "mygoalai" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B9346B2D2EA8240900ABE082 /* mygoalai */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B9346B302EA8240900ABE082 /* mygoalai */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B9346E672EB0D79600ABE082 /* Exceptions for "mygoalai" folder in "mygoalai" target */,
+			);
+			path = mygoalai;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9346B2B2EA8240900ABE082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92E376F2F1E66C000C44C77 /* Sharing in Frameworks */,
+				B9346C442EA970D700ABE082 /* SafeSFSymbols in Frameworks */,
+				B9346E5D2EB0C64B00ABE082 /* MyTargetYandexMobileAdsAdapters in Frameworks */,
+				B9346E592EB0C64B00ABE082 /* AppLovinYandexMobileAdsAdapters in Frameworks */,
+				B9346E652EB0C64B00ABE082 /* YandexMobileAdsMediation in Frameworks */,
+				B9346E5B2EB0C64B00ABE082 /* MintegralYandexMobileAdsAdapters in Frameworks */,
+				B9346E632EB0C64B00ABE082 /* YandexMobileAdsInstream in Frameworks */,
+				B9346E612EB0C64B00ABE082 /* YandexMobileAds in Frameworks */,
+				B9346E5F2EB0C64B00ABE082 /* VungleYandexMobileAdsAdapters in Frameworks */,
+				B92E37722F1E7EDB00C44C77 /* SharingCloud in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9346B252EA8240900ABE082 = {
+			isa = PBXGroup;
+			children = (
+				B9346EC72EB20AB300ABE082 /* MobileAdsBundle.bundle */,
+				B9346B302EA8240900ABE082 /* mygoalai */,
+				B9346B2F2EA8240900ABE082 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9346B2F2EA8240900ABE082 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9346B2E2EA8240900ABE082 /* mygoalai.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9346B2D2EA8240900ABE082 /* mygoalai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9346B392EA8240B00ABE082 /* Build configuration list for PBXNativeTarget "mygoalai" */;
+			buildPhases = (
+				B9346B2A2EA8240900ABE082 /* Sources */,
+				B9346B2B2EA8240900ABE082 /* Frameworks */,
+				B9346B2C2EA8240900ABE082 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B9346B302EA8240900ABE082 /* mygoalai */,
+			);
+			name = mygoalai;
+			packageProductDependencies = (
+				B9346C432EA970D700ABE082 /* SafeSFSymbols */,
+				B9346E582EB0C64B00ABE082 /* AppLovinYandexMobileAdsAdapters */,
+				B9346E5A2EB0C64B00ABE082 /* MintegralYandexMobileAdsAdapters */,
+				B9346E5C2EB0C64B00ABE082 /* MyTargetYandexMobileAdsAdapters */,
+				B9346E5E2EB0C64B00ABE082 /* VungleYandexMobileAdsAdapters */,
+				B9346E602EB0C64B00ABE082 /* YandexMobileAds */,
+				B9346E622EB0C64B00ABE082 /* YandexMobileAdsInstream */,
+				B9346E642EB0C64B00ABE082 /* YandexMobileAdsMediation */,
+				B92E376E2F1E66C000C44C77 /* Sharing */,
+				B92E37712F1E7EDB00C44C77 /* SharingCloud */,
+			);
+			productName = mygoalai;
+			productReference = B9346B2E2EA8240900ABE082 /* mygoalai.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9346B262EA8240900ABE082 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					B9346B2D2EA8240900ABE082 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B9346B292EA8240900ABE082 /* Build configuration list for PBXProject "mygoalai" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9346B252EA8240900ABE082;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B9346C422EA970D700ABE082 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */,
+				B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */,
+				B92E376D2F1E66C000C44C77 /* XCRemoteSwiftPackageReference "swift-sharing" */,
+				B92E37702F1E7EDA00C44C77 /* XCRemoteSwiftPackageReference "sharing-cloud" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B9346B2F2EA8240900ABE082 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9346B2D2EA8240900ABE082 /* mygoalai */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9346B2C2EA8240900ABE082 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9346EC82EB20AB300ABE082 /* MobileAdsBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9346B2A2EA8240900ABE082 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9346B372EA8240B00ABE082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = Y525XBXHFQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9346B382EA8240B00ABE082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = Y525XBXHFQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9346B3A2EA8240B00ABE082 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM96636MZX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mygoalai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Список покупок";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcore.mygoalai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9346B3B2EA8240B00ABE082 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM96636MZX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mygoalai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Список покупок";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcore.mygoalai;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9346B292EA8240900ABE082 /* Build configuration list for PBXProject "mygoalai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9346B372EA8240B00ABE082 /* Debug */,
+				B9346B382EA8240B00ABE082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9346B392EA8240B00ABE082 /* Build configuration list for PBXNativeTarget "mygoalai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9346B3A2EA8240B00ABE082 /* Debug */,
+				B9346B3B2EA8240B00ABE082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B92E376D2F1E66C000C44C77 /* XCRemoteSwiftPackageReference "swift-sharing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-sharing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.4;
+			};
+		};
+		B92E37702F1E7EDA00C44C77 /* XCRemoteSwiftPackageReference "sharing-cloud" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeithBird/sharing-cloud";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		B9346C422EA970D700ABE082 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparrowcode/SafeSFSymbols.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yandexmobile/yandex-ads-sdk-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.16.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B92E376E2F1E66C000C44C77 /* Sharing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B92E376D2F1E66C000C44C77 /* XCRemoteSwiftPackageReference "swift-sharing" */;
+			productName = Sharing;
+		};
+		B92E37712F1E7EDB00C44C77 /* SharingCloud */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B92E37702F1E7EDA00C44C77 /* XCRemoteSwiftPackageReference "sharing-cloud" */;
+			productName = SharingCloud;
+		};
+		B9346C432EA970D700ABE082 /* SafeSFSymbols */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346C422EA970D700ABE082 /* XCRemoteSwiftPackageReference "SafeSFSymbols" */;
+			productName = SafeSFSymbols;
+		};
+		B9346E582EB0C64B00ABE082 /* AppLovinYandexMobileAdsAdapters */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = AppLovinYandexMobileAdsAdapters;
+		};
+		B9346E5A2EB0C64B00ABE082 /* MintegralYandexMobileAdsAdapters */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = MintegralYandexMobileAdsAdapters;
+		};
+		B9346E5C2EB0C64B00ABE082 /* MyTargetYandexMobileAdsAdapters */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = MyTargetYandexMobileAdsAdapters;
+		};
+		B9346E5E2EB0C64B00ABE082 /* VungleYandexMobileAdsAdapters */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = VungleYandexMobileAdsAdapters;
+		};
+		B9346E602EB0C64B00ABE082 /* YandexMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = YandexMobileAds;
+		};
+		B9346E622EB0C64B00ABE082 /* YandexMobileAdsInstream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = YandexMobileAdsInstream;
+		};
+		B9346E642EB0C64B00ABE082 /* YandexMobileAdsMediation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9346E572EB0C64B00ABE082 /* XCRemoteSwiftPackageReference "yandex-ads-sdk-ios" */;
+			productName = YandexMobileAdsMediation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B9346B262EA8240900ABE082 /* Project object */;
+}
