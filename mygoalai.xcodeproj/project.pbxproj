@@ -20,9 +20,20 @@
 		B9346EC82EB20AB300ABE082 /* MobileAdsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9346EC72EB20AB300ABE082 /* MobileAdsBundle.bundle */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B94CD5162FBB0A5E00B770F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9346B262EA8240900ABE082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9346B2D2EA8240900ABE082;
+			remoteInfo = mygoalai;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		B9346B2E2EA8240900ABE082 /* mygoalai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mygoalai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9346EC72EB20AB300ABE082 /* MobileAdsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileAdsBundle.bundle; sourceTree = "<group>"; };
+		B94CD5122FBB0A5E00B770F3 /* mygoalaiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mygoalaiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -42,6 +53,11 @@
 				B9346E672EB0D79600ABE082 /* Exceptions for "mygoalai" folder in "mygoalai" target */,
 			);
 			path = mygoalai;
+			sourceTree = "<group>";
+		};
+		B94CD5132FBB0A5E00B770F3 /* mygoalaiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mygoalaiTests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -64,6 +80,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B94CD50F2FBB0A5E00B770F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -72,6 +95,7 @@
 			children = (
 				B9346EC72EB20AB300ABE082 /* MobileAdsBundle.bundle */,
 				B9346B302EA8240900ABE082 /* mygoalai */,
+				B94CD5132FBB0A5E00B770F3 /* mygoalaiTests */,
 				B9346B2F2EA8240900ABE082 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				B9346B2E2EA8240900ABE082 /* mygoalai.app */,
+				B94CD5122FBB0A5E00B770F3 /* mygoalaiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,6 +144,29 @@
 			productReference = B9346B2E2EA8240900ABE082 /* mygoalai.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B94CD5112FBB0A5E00B770F3 /* mygoalaiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B94CD51A2FBB0A5E00B770F3 /* Build configuration list for PBXNativeTarget "mygoalaiTests" */;
+			buildPhases = (
+				B94CD50E2FBB0A5E00B770F3 /* Sources */,
+				B94CD50F2FBB0A5E00B770F3 /* Frameworks */,
+				B94CD5102FBB0A5E00B770F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B94CD5172FBB0A5E00B770F3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B94CD5132FBB0A5E00B770F3 /* mygoalaiTests */,
+			);
+			name = mygoalaiTests;
+			packageProductDependencies = (
+			);
+			productName = mygoalaiTests;
+			productReference = B94CD5122FBB0A5E00B770F3 /* mygoalaiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,11 +174,15 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2600;
+				LastSwiftUpdateCheck = 2640;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					B9346B2D2EA8240900ABE082 = {
 						CreatedOnToolsVersion = 26.0.1;
+					};
+					B94CD5112FBB0A5E00B770F3 = {
+						CreatedOnToolsVersion = 26.4;
+						TestTargetID = B9346B2D2EA8240900ABE082;
 					};
 				};
 			};
@@ -155,6 +207,7 @@
 			projectRoot = "";
 			targets = (
 				B9346B2D2EA8240900ABE082 /* mygoalai */,
+				B94CD5112FBB0A5E00B770F3 /* mygoalaiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -168,6 +221,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B94CD5102FBB0A5E00B770F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -178,7 +238,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B94CD50E2FBB0A5E00B770F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B94CD5172FBB0A5E00B770F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9346B2D2EA8240900ABE082 /* mygoalai */;
+			targetProxy = B94CD5162FBB0A5E00B770F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B9346B372EA8240B00ABE082 /* Debug */ = {
@@ -382,6 +457,50 @@
 			};
 			name = Release;
 		};
+		B94CD5182FBB0A5E00B770F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM96636MZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ao.mygoalaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mygoalai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mygoalai";
+			};
+			name = Debug;
+		};
+		B94CD5192FBB0A5E00B770F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AM96636MZX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ru.ao.mygoalaiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mygoalai.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mygoalai";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +518,15 @@
 			buildConfigurations = (
 				B9346B3A2EA8240B00ABE082 /* Debug */,
 				B9346B3B2EA8240B00ABE082 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B94CD51A2FBB0A5E00B770F3 /* Build configuration list for PBXNativeTarget "mygoalaiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B94CD5182FBB0A5E00B770F3 /* Debug */,
+				B94CD5192FBB0A5E00B770F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

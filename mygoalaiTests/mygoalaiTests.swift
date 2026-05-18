@@ -6,25 +6,37 @@
 //
 
 import XCTest
+@testable import mygoalai
 
 final class mygoalaiTests: XCTestCase {
+    
+    private var goalsStorage: GoalsStorage!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        goalsStorage = .shared
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        goalsStorage = nil
     }
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-        // XCTest Documentation
-        // https://developer.apple.com/documentation/xctest
+    func test_add_goal_success() throws {
+        goalsStorage.saveGoal(.init(title: "test goal", description: nil, steps: nil))
+        XCTAssertTrue(goalsStorage.getGoals().count == 1, "Goals added successfully")
+        let goal = goalsStorage.getGoals().filter({ ($0.title ?? "") == "test goal" }).first
+        if let goal {
+            goalsStorage.deleteGoal(goal.id)
+        }
+    }
+    
+    func test_delete_goal_success() throws {
+        goalsStorage.saveGoal(.init(title: "test goal", description: nil, steps: nil))
+        XCTAssertTrue(goalsStorage.getGoals().count == 1, "Goals added successfully")
+        let goal = goalsStorage.getGoals().filter({ ($0.title ?? "") == "test goal" }).first
+        if let goal {
+            goalsStorage.deleteGoal(goal.id)
+        }
+        XCTAssertTrue(goalsStorage.getGoals().count == 0, "Goals is empty")
     }
 
     func testPerformanceExample() throws {
